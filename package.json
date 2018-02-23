@@ -1,7 +1,7 @@
 {
   "name": "steem-uneeverso-oficial",
   "version": "1.0.0",
-  "description": "Steem.js the JavaScript API for Steem blockchain",
+  "description": "Librería nodejs, para servicio de comunicación entre nodos de la red blockchain steem",
   "main": "lib/index.js",
   "scripts": {},
   "browser": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/steemit/steem-js.git"
+    "url": "git+https://github.com/uneeverso/steem-uneeverso-oficial.git"
   },
   "keywords": [
     "steem",
@@ -18,12 +18,12 @@
     "blockchain",
     "steemjs"
   ],
-  "author": "Fabien (https://github.com/bonustrack)",
-  "license": "MIT",
+  "author": "blickyer",
+  "license": "GPL",
   "bugs": {
     "url": "https://github.com/steemit/steem-js/issues"
   },
-  "homepage": "https://github.com/steemit/steem-js#readme",
+  "homepage": "https://github.com/uneeverso/steem-uneeverso-oficial#readme",
   "dependencies": {
     "@steemit/rpc-auth": "^1.1.0",
     "bigi": "^1.4.2",
@@ -63,10 +63,4 @@
     "webpack": "^1.13.2",
     "webpack-visualizer-plugin": "^0.1.5"
   },
-  "contributors": [
-    "Fabien (https://github.com/bonustrack)",
-    "James Calfee (https://github.com/jcalfee)",
-    "Nilesh Suthar (https://github.com/nil1511)",
-    "Pedro Tacla Yamada (https://github.com/yamadapc)"
-  ]
 }
